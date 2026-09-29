@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.venv/
+__pycache__/
+.pytest_cache/
+.env
+.sites-runtime/
+.vercel/
+.DS_Store
+*.tsbuildinfo
+public/wasm/

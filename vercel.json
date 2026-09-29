@@ -1,0 +1,11 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "vite",
+  "outputDirectory": "dist",
+  "functions": {
+    "api/index.py": {
+      "includeFiles": "backend/models/*.onnx",
+      "excludeFiles": "{tests/**,work/**,outputs/**,**/__pycache__/**,**/*.pyc}"
+    }
+  }
+}
