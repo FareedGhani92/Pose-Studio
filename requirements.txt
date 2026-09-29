@@ -1,1 +1,7 @@
 -r backend/requirements.txt
+fastapi==0.115.12
+uvicorn==0.34.0
+python-multipart==0.0.20
+opencv-python-headless==4.11.0.86
+numpy==2.2.6
+Pillow==11.1.0
