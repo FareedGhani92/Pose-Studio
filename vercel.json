@@ -5,7 +5,7 @@
   "functions": {
     "api/index.py": {
       "includeFiles": "backend/models/*.onnx",
-      "excludeFiles": "{tests/**,work/**,outputs/**,**/__pycache__/**,**/*.pyc}"
+      "excludeFiles": "{dist/**,public/**,node_modules/**,src/**,scripts/**,tests/**,work/**,outputs/**,.openai/**,.pytest_cache/**,**/__pycache__/**,**/*.pyc,**/*.test.py,**/test_*.py}"
     }
   }
 }
